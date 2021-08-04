@@ -1,39 +1,48 @@
-/***********************************
-project:LIBRARY MANAGMENT SYSTEM   *
-AUTHOR: KIGAA ,GODFREY             *
-DATE: AUGUST                       *
-COMPLIER:C99                       *
-LICENSE;MIT                        *
-***********************************/
+/******************************
+project: GRADING SYTSEM       *
+Author : samsonkigaa& godfrey *
+Date :july                    *
+compiler:C99                  *
+******************************/
 
 #include <stdio.h>
 #include <stdlib.h>
 
 int main()
 {
-    int action;
-    printf("COMMUNITY LIBRARY SYTEM!\n");
-    printf("WELCOME SIR GODFREY & SIR KIGAA\n");
-    //Nvigation system
+   //declare variable
+
+    int mark;
+    char grade;
+
+    printf("Zetech university Grading system\n");
     do{
-          printf("1. Add user\n");
-    printf("2. Add book\n");
-    printf("3. exit");
-    printf("Action(1-3:");
-    scanf("%d",&action);
+            printf("Enter a mark(0-100):");
+            scanf("%d",&mark);
 
-//validate
-    if(action<1 || action> 3)
-        {
-        printf("Invalid action!!!\n");
-        system("cls");
+        if( mark<0){
 
-    }while(action <1 || action >3);
-    execute_action(action);
-
-
-    return 0;
     }
 
 
+
+
+
+    }
+
+
+
+
+
+
 }
+}
+
+
+
+
+
+
+
+
+
